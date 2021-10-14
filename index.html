@@ -404,7 +404,7 @@
 							<div class="lg:hidden block">
 								<main class="w-full text-gray-100 place-content-center">
 									<div class="w-auto border-4 mt-20 border-b border-gray-400"></div>
-									<h1 class="font-bold ml-4 my-16 underline text-3xl uppercase font-bold text-gray-900"><i class="-ml-2 mr-2 text-3xl fas fa-laptop"></i>Keahlian</h1>
+									<h1 class="font-bold ml-4 my-16 underline text-3xl uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-laptop"></i>Keahlian</h1>
 									<section x-data="skillDisplay" class="p-6 space-y-6 bg-gray-400 rounded-xl md:grid md:grid-cols-2 md:gap-4 sm:space-y-0">
 										<div class="grid grid-cols-2 gap-6">
 											<template x-for="skill in skills">

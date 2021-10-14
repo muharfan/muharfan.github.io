@@ -88,10 +88,6 @@ li:hover > button svg {
   color: #96a2a7;
 }
 
-.flag-icon-id {
-  background-image: url(../flags/4x3/id.svg);
-}
-
 .bg-dark {
   background-color: #111827;
 }
@@ -112,8 +108,8 @@ li:hover > button svg {
 }
 
 .bg1 {
-  background-image: url("/Portofolio/foto/cover1.jpg");
+  background-image: url("/portofolio/foto/cover1.jpg");
 }
 .bg2 {
-  background-image: url("/Portofolio/foto/cover2.jpg");
+  background-image: url("/portofolio/foto/cover2.jpg");
 }

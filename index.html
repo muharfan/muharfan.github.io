@@ -105,9 +105,9 @@
 					<!-- skill card -->
 				<section id="skill">
 					<div class="lg:block hidden">
-						<div class="w-full border-2 mt-36 border-b border-gray-400"></div>
+						<div class="w-full border-2 mt-36 -mb-8 border-b border-gray-400"></div>
 						<main class="grid w-full min-h-screen text-gray-100 place-content-center">
-							<h1 class="lg:block font-bold -ml-8 my-8 hidden underline text-3xl uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-laptop"></i>SKILL</h1>
+							<h1 class="lg:block font-bold -ml-8 my-16 hidden underline text-3xl uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-laptop"></i>SKILL</h1>
 								<section x-data="skillDisplay" class="p-6 space-y-6 bg-gray-400 rounded-xl md:grid md:grid-cols-2 md:gap-4 sm:space-y-0">
 									<div class="grid grid-cols-2 gap-6">
 										<template x-for="skill in skills">
@@ -128,7 +128,7 @@
 					</div>
 					<!-- mobile -->
 					<div class="lg:hidden block">
-						<main class="grid w-full min-h-screen text-gray-100 place-content-center">
+						<main class="w-full text-gray-100 place-content-center">
 							<div class="w-auto border-4 mt-20 border-b border-gray-400"></div>
 							<h1 class="font-bold ml-4 my-16 underline text-3xl uppercase font-bold text-gray-900"><i class="-ml-2 mr-2 text-3xl fas fa-laptop"></i>SKILL</h1>
 							<section x-data="skillDisplay" class="p-6 space-y-6 bg-gray-400 rounded-xl md:grid md:grid-cols-2 md:gap-4 sm:space-y-0">
@@ -159,8 +159,8 @@
 				<!--Posts Container-->			
 				<div class="w-full border-2 mt-14 lg:mt-0 lg:mb-10 border-b border-gray-400"></div>
 				<section id="experience">
-					<div class="w-full bg-blue pt-8">
-						<h1 class="font-bold ml-2 lg:ml-28 my-8 lg:my-14 text-3xl underline uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-briefcase"></i>work experience</h1>
+					<div class="w-full pt-8">
+						<h1 class="font-bold lg:ml-28 ml-4 my-14 underline text-3xl uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-briefcase"></i>work experience</h1>
 						<div class="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
 							 <div class="sm:flex-1 border hover:bg-gray-300 transform hover:scale-105 transform lg:hover:scale-110 border-gray-700 lg:flex-initial lg:w-1/4 h-96 rounded-xl bg-white mt-4 flex flex-col">
 								<div class="p-8 text-3xl font-bold text-center">Field Practice</div>
@@ -177,7 +177,7 @@
 								</div>
 							 </div>
 							<div class="sm:flex-1 border hover:bg-gray-300 transform hover:scale-105 transform lg:hover:scale-110 border-gray-700 lg:flex-initial lg:w-1/4 h-96 rounded-xl bg-white mt-4 flex flex-col">
-								<div class="w-full p-8 text-3xl font-bold text-center">digitization (Project)</div>
+								<div class="w-full p-8 text-3xl font-bold text-center">Digitization (Project)</div>
 								<div class="w-full border border-grey-light border-t border-solid text-sm">
 									<div class="text-center border border-grey-light border-b border-solid py-2">
 										<i class="mr-2 fas fa-building"></i>Kelautan dan Perikanan Republik Indonesia
@@ -208,7 +208,7 @@
 					</div>
 					 <main class="grid w-full mt-16 lg:mt-20 text-gray-100 place-content-center">
 						<div class="w-full border-2 border-b border-gray-400"></div>
-						<h1 class="ml-2  my-2 text-xl lg:text-3xl uppercase font-sans text-gray-900"><i class="-ml-2 mr-2 text-3xl fas fa-briefcase"></i>Freelance & creation</h1>	
+						<h1 class="ml-2  my-2 text-xl lg:text-3xl uppercase font-sans text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-briefcase"></i>Freelance & creation</h1>	
 					</main>
 				</section>
 				<div class="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
@@ -255,7 +255,7 @@
 							   </div>
 						</div>			
 						<!--contact-->	
-						<div class="w-full border-2 mt-14 lg:mt-28 lg:mb-16 border-b border-gray-400"></div>
+						<div class="w-full border-2 mt-14 lg:mt-32 lg:mb-28 border-b border-gray-400"></div>
 						<section id="contactme">
 							<h1 class="font-bold ml-2 lg:ml-28 my-8 lg:my-16 text-3xl underline uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-address-book"></i>Contact Me</h1>
 							<div class="text-gray-600 mt-14 body-font relative">
@@ -375,9 +375,9 @@
 					<!-- skill card -->
 					<section id="skill">
 						<div class="lg:block hidden">
-							<div class="w-full border-2 mt-36 border-b border-gray-400"></div>
+							<div class="w-full border-2 mt-36 -mb-8 border-b border-gray-400"></div>
 								<main class="grid w-full min-h-screen text-gray-100 place-content-center">
-									 <h1 class="lg:block font-bold -ml-8 my-8 hidden underline text-3xl uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-laptop"></i>Keahlian</h1>
+									 <h1 class="lg:block font-bold -ml-8 my-16 hidden underline text-3xl uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-laptop"></i>Keahlian</h1>
 
 									<section x-data="skillDisplay" class="p-6 space-y-6 bg-gray-400 rounded-xl md:grid md:grid-cols-2 md:gap-4 sm:space-y-0">
 										<div class="grid grid-cols-2 gap-6">
@@ -402,7 +402,7 @@
 							</div>
 							<!-- mobile -->
 							<div class="lg:hidden block">
-								<main class="grid w-full min-h-screen text-gray-100 place-content-center">
+								<main class="w-full text-gray-100 place-content-center">
 									<div class="w-auto border-4 mt-20 border-b border-gray-400"></div>
 									<h1 class="font-bold ml-4 my-16 underline text-3xl uppercase font-bold text-gray-900"><i class="-ml-2 mr-2 text-3xl fas fa-laptop"></i>Keahlian</h1>
 									<section x-data="skillDisplay" class="p-6 space-y-6 bg-gray-400 rounded-xl md:grid md:grid-cols-2 md:gap-4 sm:space-y-0">
@@ -430,10 +430,10 @@
 							<!-- mobile -->
 					</section>
 					<!--Posts Container-->			
-					<div class="w-full border-2 mt-14 lg:mt-0 lg:mb-10 border-b border-gray-400"></div>
+					<div class="w-full border-2 mt-14 lg:mt-32 lg:mb-10 border-b border-gray-400"></div>
 					<section id="experience">
-						<div class="w-full bg-blue pt-8">
-							<h1 class="font-bold ml-2 lg:ml-28 my-8 lg:my-14 text-3xl underline uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-briefcase"></i>pengalaman kerja</h1>
+						<div class="w-full pt-8">
+							<h1 class="lg:block font-bold ml-28 my-14 hidden underline text-3xl uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-briefcase"></i>Pengalaman Kerja</h1>
 							<div class="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
 								<div class="sm:flex-1 border hover:bg-gray-300 transform hover:scale-105 transform lg:hover:scale-110 border-gray-700 lg:flex-initial lg:w-1/4 h-96 rounded-xl bg-white mt-4 flex flex-col">
 									<div class="p-8 text-3xl font-bold text-center">Praktek kerja Lapangan</div>
@@ -450,7 +450,7 @@
 									</div>
 								</div>
 								<div class="sm:flex-1 border hover:bg-gray-300 transform hover:scale-105 transform lg:hover:scale-110 border-gray-700 lg:flex-initial lg:w-1/4 h-96 rounded-xl bg-white mt-4 flex flex-col">
-									<div class="w-full p-8 text-3xl font-bold text-center">digitalisasi (Project)</div>
+									<div class="w-full p-8 text-3xl font-bold text-center">Digitalisasi (Project)</div>
 									<div class="w-full border border-grey-light border-t border-solid text-sm">
 										<div class="text-center border border-grey-light border-b border-solid py-2">
 											<i class="mr-2 fas fa-building"></i>Kelautan dan Perikanan Republik Indonesia
@@ -459,12 +459,12 @@
 											<i class="mr-2 fas fa-calendar-alt"></i>1 November 2019 - 1 januari 2020
 										 </div>
 										 <div class="text-center border border-grey-light border-b border-solid py-4">
-											<i class="mr-2 fas fa-business-time"></i>entri data, input data, pemindaian data, penyaringan data
+											<i class="mr-2 fas fa-business-time"></i>Mengentri data,menginput data, pemindaian data, penyaringan data
 										 </div>
 									</div>
 								</div>
 								<div class="sm:flex-1 border hover:bg-gray-300 transform hover:scale-105 transform lg:hover:scale-110  border-gray-700 lg:flex-initial lg:w-1/4 h-96 rounded-xl bg-white mt-4 flex flex-col">
-									<div class="p-8 text-3xl font-bold text-center">pelayan (Magang)</div>
+									<div class="p-8 text-3xl font-bold text-center">Pelayan (Magang)</div>
 									<div class="border border-grey-light border-t border-solid text-sm">
 										<div class="text-center border border-grey-light border-b border-solid py-4">
 											<i class="mr-2 fas fa-building"></i>Sapo Oriental
@@ -481,7 +481,7 @@
 						</div>
 						<main class="grid w-full mt-16 lg:mt-20 text-gray-100 place-content-center">
 							<div class="w-full border-2 border-b border-gray-400"></div>
-							<h1 class="ml-2  my-2 text-xl lg:text-3xl uppercase font-sans text-gray-900"><i class="-ml-2 mr-2 text-3xl fas fa-briefcase"></i>Freelance & creation</h1>	
+							<h1 class="ml-2  my-2 text-xl lg:text-3xl uppercase font-sans text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-briefcase"></i>Bekerja Lepas & Kreasi</h1>	
 						</main>
 					</section>
 					<div class="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
@@ -528,9 +528,9 @@
 						</div>
 					 </div>			
 					<!--contact-->	
-					<div class="w-full border-2 mt-14 lg:mt-28 lg:mb-16 border-b border-gray-400"></div>
+					<div class="w-full border-2 mt-14 lg:mt-32 lg:mb-28 border-b border-gray-400"></div>
 					<section id="contactme">
-						<h1 class="font-bold ml-2 lg:ml-28 my-8 lg:my-16 text-3xl underline uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-address-book"></i>Contact Me</h1>
+						<h1 class="font-bold ml-2 lg:ml-28 my-8 lg:my-16 text-3xl underline uppercase font-bold text-gray-900" x-bind:class="{ 'text-dark-200': state }"><i class="-ml-2 mr-2 text-3xl fas fa-address-book"></i>Kontak Saya</h1>
 						<div class="text-gray-600 mt-14 body-font relative">
 							<div class="absolute inset-0 bg-gray-300">
 								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.4550482555622!2d106.85599962917775!3d-6.287350499715581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f264d12ca4c3%3A0x788c972ed982cf6c!2sJl.%20Batu%20Alam%202%2C%20RT.3%2FRW.3%2C%20Batu%20Ampar%2C%20Kec.%20Kramat%20jati%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2013520!5e0!3m2!1sid!2sid!4v1634075583456!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

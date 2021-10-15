@@ -26,7 +26,7 @@ document.addEventListener('alpine:init', () => {
             },
         ],
         currentSkill: {
-            'title': 'HTML',
+            'title': 'None',
             'percent': '0',
         }
     }));

@@ -14,7 +14,11 @@ document.addEventListener('alpine:init', () => {
             },
             {
                 'title': 'CSS',
-                'percent': '80',
+                'percent': '70',
+            },
+            {
+                'title': 'HTML',
+                'percent': '70',
             },
             {
                 'title': 'Javascript',
